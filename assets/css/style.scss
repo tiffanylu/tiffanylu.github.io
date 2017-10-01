@@ -2,3 +2,43 @@
 ---
 
 @import "{{ site.theme }}";
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+.site-container {
+  height: 100%;
+  width: 100%;
+}
+
+.header-container {
+  height: 20%;
+  width: 100%;
+}
+
+.portfolio-container {
+  height: 80%;
+  width: 100%;
+}
+
+.svg-container {
+  height: 100%;
+  width: 100%;
+}
+
+.description-container {
+  height: 100%;
+  width: 100%;
+}
+
+.svg-content {
+  height: 100%;
+  width: 100%;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #ddd;
+}

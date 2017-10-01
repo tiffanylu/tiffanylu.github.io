@@ -15,22 +15,36 @@
 }
 
 </style>
-<svg width="960" height="600"></svg>
 
 <!-- Project Overview Modals -->
 {% for project in site.projects %}
   {{ project }}
 {% endfor %}
 
+<div class="container site-container">
+  <div class="header-container row">
+    Header
+  </div>
+  <div class="portfolio-container row">
+    <div class="svg-container col-xs-8 col-sm-8 col-md-8 col-lg-8">
+      <svg class="svg-content" preserveAspectRatio="xMidYMid meet"></svg>
+    </div>
+    <div class="description-container col-xs-4 col-sm-4 col-md-4 col-lg-4">col-4</div>
+  </div>
+</div>
+
+<link href='/assets/css/style.css' rel='stylesheet'>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script src="https://d3js.org/d3.v4.min.js"></script>
 <script>
 
-var svg = d3.select("svg"),
-    width = +svg.attr("width"),
-    height = +svg.attr("height");
+var width = $('.svg-container').width(),
+    height = $('.svg-container').height();
+    
+var svg = d3.select("svg")
+.attr("viewBox", "0 0 " + width + " " + height);
 
 var color = d3.scaleOrdinal(d3.schemeCategory20);
 
