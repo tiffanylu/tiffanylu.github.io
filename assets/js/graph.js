@@ -1,5 +1,7 @@
+---
+---
 var width = $('.svg-container').width(),
-    height = $('.svg-container').height();
+height = $('.svg-container').height();
 
 var svg = d3.select("svg")
 .attr("viewBox", "0 0 " + width + " " + height);
@@ -7,59 +9,74 @@ var svg = d3.select("svg")
 var color = d3.scaleOrdinal(d3.schemeCategory20);
 
 var simulation = d3.forceSimulation()
-    .force("link", d3.forceLink().id(function(d) { return d.id; }))
-    .force("charge", d3.forceManyBody())
-    .force("center", d3.forceCenter(width / 2, height / 2));
+.force("link", d3.forceLink().id(function(d) { return d.id; }))
+.force("charge", d3.forceManyBody())
+.force("center", d3.forceCenter(width / 2, height / 2));
 
 d3.json("data/portfolio-meta.json", function(error, graph) {
   if (error) throw error;
 
   var link = svg.append("g")
-      .attr("class", "links")
-    .selectAll("line")
-    .data(graph.links)
-    .enter().append("line")
-      .attr("stroke-width", function(d) { return Math.sqrt(d.value); });
+  .attr("class", "links")
+  .selectAll("line")
+  .data(graph.links)
+  .enter().append("line")
+  .attr("stroke-width", function(d) { return Math.sqrt(d.value); });
 
   var node = svg.append("g")
-      .attr("class", "nodes")
-    .selectAll("circle")
-    .data(graph.nodes)
-    .enter().append("circle")
-      .attr("r", function(d) { return 5 * d.group; })
-      .attr("fill", function(d) { return color(d.group); })
-      .attr("name", function(d) { return d.id; })
-      .attr("data-toggle", "modal")
-      .attr("data-target", function(d) { return d.id; })
-      .on("click", function() {
-        var node_name = $(this).attr('name');
-        $('#' + node_name).modal();
-      })
-      .call(d3.drag()
-          .on("start", dragstarted)
-          .on("drag", dragged)
-          .on("end", dragended));
+  .attr("class", "nodes")
+  .selectAll("circle")
+  .data(graph.nodes)
+  .enter().append("circle")
+  .attr("r", function(d) { return 5 * d.group; })
+  .attr("fill", function(d) { return color(d.group); })
+  .attr("name", function(d) { return d.id; })
+  // .attr("data-toggle", "modal")
+  // .attr("data-target", function(d) { return d.id; })
+  // .on("click", function() {
+  //   var node_name = $(this).attr('name');
+  //   $('#' + node_name).modal();
+  // })
+  .call(d3.drag()
+  .on("start", dragstarted)
+  .on("drag", dragged)
+  .on("end", dragended));
 
   node.append("title")
-      .text(function(d) { return d.id; });
+  .text(function(d) { return d.id; });
 
   simulation
-      .nodes(graph.nodes)
-      .on("tick", ticked);
+  .nodes(graph.nodes)
+  .on("tick", ticked);
 
   simulation.force("link")
-      .links(graph.links);
+  .links(graph.links);
+
+  (function addEdgesData() {
+    for (var i = 0; i < graph.links.length; i++) {
+      var elem = graph.links[i];
+      var sourceId = elem['source']['id'];
+      var targetId = elem['target']['id'];
+      var $node = $('circle[name="' + sourceId + '"]');
+      var edges = $node.data('edges');
+      if (!edges) {
+        $node.data('edges', [targetId]);
+      } else {
+        $node.data('edges', edges.concat(targetId));
+      }
+    }
+  })();
 
   function ticked() {
     link
-        .attr("x1", function(d) { return d.source.x; })
-        .attr("y1", function(d) { return d.source.y; })
-        .attr("x2", function(d) { return d.target.x; })
-        .attr("y2", function(d) { return d.target.y; });
+    .attr("x1", function(d) { return d.source.x; })
+    .attr("y1", function(d) { return d.source.y; })
+    .attr("x2", function(d) { return d.target.x; })
+    .attr("y2", function(d) { return d.target.y; });
 
     node
-        .attr("cx", function(d) { return d.x; })
-        .attr("cy", function(d) { return d.y; });
+    .attr("cx", function(d) { return d.x; })
+    .attr("cy", function(d) { return d.y; });
   }
 });
 
