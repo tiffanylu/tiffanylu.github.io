@@ -1,6 +1,7 @@
 ---
 title: LesbiansWhoTech
-name: Lesbians Who Tech
 layout: project
 ---
+# Lesbians Who Tech
+
 LesbiansWhoTech

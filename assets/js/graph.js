@@ -31,7 +31,7 @@ d3.json("data/portfolio-meta.json", function(error, graph) {
   .attr("r", function(d) { return 5 * d.group; })
   .attr("fill", function(d) { return color(d.group); })
   .attr("name", function(d) { return d.id; })
-  .on("click", highlightEdges)
+  .on("click", onNodeClicked)
   .attr('data-toggle', 'tooltip')
   .attr("title", function(d) { return d.id; })
   // .attr("data-toggle", "modal")
@@ -82,6 +82,18 @@ d3.json("data/portfolio-meta.json", function(error, graph) {
     .attr("cy", function(d) { return d.y; });
   }
 });
+
+function onNodeClicked() {
+  showDescription.call($(this));
+  highlightEdges.call($(this));
+}
+
+function showDescription() {
+  $('.description.active').removeClass('active');
+  var descriptionId = '#' + $(this).attr('name').replace(' ', '');
+
+  $(descriptionId).addClass('active');
+}
 
 function highlightEdges() {
   $('circle.active').removeClass('active');
