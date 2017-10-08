@@ -49,6 +49,28 @@ html, body {
 }
 
 .nodes circle {
-  stroke: #fff;
-  stroke-width: 1.5px;
+  transition: fill .4s ease;
+  // stroke: #fff;
+  // stroke-width: 1.5px;
+
+  &:hover {
+    fill: #7266a0;
+  }
+
+  &.active {
+    fill: #5e4f99;
+  }
+}
+
+.tooltip-arrow {
+   display: none;
+}
+
+.tooltip.right {
+    // left:0;
+    top: 0;
+    margin-top:25px;
+    border-top:5px solid transparent;
+    border-bottom:5px solid transparent;
+    // border-right:5px solid #000
 }

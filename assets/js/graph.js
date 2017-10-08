@@ -31,6 +31,9 @@ d3.json("data/portfolio-meta.json", function(error, graph) {
   .attr("r", function(d) { return 5 * d.group; })
   .attr("fill", function(d) { return color(d.group); })
   .attr("name", function(d) { return d.id; })
+  .on("click", highlightEdges)
+  .attr('data-toggle', 'tooltip')
+  .attr("title", function(d) { return d.id; })
   // .attr("data-toggle", "modal")
   // .attr("data-target", function(d) { return d.id; })
   // .on("click", function() {
@@ -42,8 +45,8 @@ d3.json("data/portfolio-meta.json", function(error, graph) {
   .on("drag", dragged)
   .on("end", dragended));
 
-  node.append("title")
-  .text(function(d) { return d.id; });
+  // node.append("title")
+  // .text(function(d) { return d.id; });
 
   simulation
   .nodes(graph.nodes)
@@ -80,6 +83,20 @@ d3.json("data/portfolio-meta.json", function(error, graph) {
   }
 });
 
+function highlightEdges() {
+  $('circle.active').removeClass('active');
+  var $node = $(this);
+  $node.addClass('active');
+  var edgesArray = $node.data('edges');
+  console.log('node name: ' + $node.attr('name') + ' edges: ' + edgesArray);
+  if (edgesArray) {
+    for (var i = 0; i < edgesArray.length; i++) {
+      var $edgeNode = $('circle[name="' + edgesArray[i] + '"]');
+      $edgeNode.addClass('active');
+    }
+  }
+}
+
 function dragstarted(d) {
   if (!d3.event.active) simulation.alphaTarget(0.3).restart();
   d.fx = d.x;
@@ -96,3 +113,10 @@ function dragended(d) {
   d.fx = null;
   d.fy = null;
 }
+
+$(document).ready(function(){
+    $('circle').tooltip({
+      'container': 'body',
+      'placement': 'right'
+    });
+});
