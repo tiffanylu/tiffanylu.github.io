@@ -90,8 +90,7 @@ function onNodeClicked() {
 
 function showDescription() {
   $('.description.active').removeClass('active');
-  var descriptionId = '#' + $(this).attr('name').replace(' ', '');
-
+  var descriptionId = '#' + $(this).attr('name').replace(/ /g, '');
   $(descriptionId).addClass('active');
 }
 

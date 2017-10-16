@@ -1,7 +1,7 @@
 {
   "nodes": [
     {"id": "AsylumConnect", "group": 2},
-    {"id": "LesbiansWhoTech", "group": 2},
+    {"id": "Lesbians Who Tech", "group": 2},
     {"id": "Braze", "group": 2},
     {"id": "Point A", "group": 2},
     {"id": "Penn Haven Housing Cooperative", "group": 2},
@@ -31,8 +31,8 @@
     {"source": "AsylumConnect", "target": "Tech", "value": 1},
     {"source": "AsylumConnect", "target": "Design", "value": 1},
     {"source": "AsylumConnect", "target": "Progressive Causes", "value": 1},
-    {"source": "LesbiansWhoTech", "target": "Tech", "value": 1},
-    {"source": "LesbiansWhoTech", "target": "Progressive Causes", "value": 1},
+    {"source": "Lesbians Who Tech", "target": "Tech", "value": 1},
+    {"source": "Lesbians Who Tech", "target": "Progressive Causes", "value": 1},
     {"source": "Point A", "target": "Progressive Causes", "value": 1},
     {"source": "Penn Haven Housing Cooperative", "target": "Progressive Causes", "value": 1},
     {"source": "Penn Haven Housing Cooperative", "target": "Communication", "value": 1},
