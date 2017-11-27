@@ -6,7 +6,7 @@ height = $('.svg-container').height();
 var svg = d3.select("svg")
 .attr("viewBox", "0 0 " + width + " " + height);
 
-var color = d3.scaleOrdinal(d3.schemeCategory20);
+// var color = d3.scaleOrdinal(d3.schemeCategory20);
 
 var simulation = d3.forceSimulation()
 .force("link", d3.forceLink().id(function(d) { return d.id; }))
@@ -123,6 +123,23 @@ function dragended(d) {
   if (!d3.event.active) simulation.alphaTarget(0);
   d.fx = null;
   d.fy = null;
+}
+
+function color(i) {
+  switch (i) {
+    case 1:
+      return "#ff9226";
+      break;
+    case 2:
+      // return "#7a9bed";
+      return "#3564d9";
+      break;
+    case 3:
+      return "#a1e5f5";
+      break;
+    default:
+      return "#000000";
+  }
 }
 
 $(document).ready(function(){

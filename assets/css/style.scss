@@ -70,16 +70,16 @@ html, body {
 }
 
 .nodes circle {
-  transition: fill .4s ease;
+  transition: fill .8s ease;
   // stroke: #fff;
   // stroke-width: 1.5px;
 
   &:hover {
-    fill: #7266a0;
+    fill: #ffe2a6;
   }
 
   &.active {
-    fill: #5e4f99;
+    fill: #ffd275;
   }
 }
 
