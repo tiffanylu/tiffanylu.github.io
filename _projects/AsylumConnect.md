@@ -2,31 +2,50 @@
 title: AsylumConnect
 layout: project
 ---
-# AsylumConnect
+# ![][13] AsylumConnect
+#### Aug 2015 - Present
+##### Director of Technology
 
-[AsylumConnect][1] is a fiscally sponsored nonprofit creating the first online resource database for LGBTQ asylum seekers in the United States. The [AsylumConnect catalog][2] helps persecuted LGBTQ people identify and access verified human needs resources upon their arrival in the U.S.
+Founded in 2014, [AsylumConnect][1] is a fiscally sponsored nonprofit creating the first online resource database for LGBTQ asylum seekers in the United States. The [AsylumConnect catalog][2] helps persecuted LGBTQ peoples identify and access verified human needs resources upon their arrival in the U.S.
 
-## Director of Technology
+AsylumConnect has received recognition and support from the United Nations, MCJ/Amelior Foundation, Millennium Campus Network (MCN), Business Today, Clinton Global Initiative University (CGI U) and more.
 
-As AsylumConnect's Director of Technology, I train and manage a team of distributed, volunteer web developers, UI/UX designers, contractors. 
+- [Our Cause][6]
+- [Press and Recognition][7]
+- [Our Product (The AsylumConnect Catalog)][2]
 
-## Projects
+## Progress
 
-### Catalog 1.0
+- Nov 2017, [AsylumConnect 2016-2017 Annual Report][10]
+- Sept 2017, [AsylumConnect and One Degree Join Forces to Take First Online Resource Database for LGBTQ Asylum Seekers Nationwide][9]
+- Dec 2016 - Aug 2017, AsylumConnect expands to Philadelphia via partnership with [Hack4Impact][8] at the University of Pennsylvania
+- Nov 2016, [The Seattle Pilot of the AsylumConnect Catalog: A Case Study][4]
+- Sept 2016, [AsylumConnect 2015-2016 Annual Report][3]
 
-### Catalog 2.0
+## Roles
 
-Hack4Impact
+- Jan 2016 - Present, Director of Technology
+  - Oversaw technical development of [the AsylumConnect catalog][2]
+  - Orchestrated partnerships, applied for grants, and co-authored case studies and other publications
+  - Trained and managed a volunteer team of distributed web developers and UI/UX designers
+- Aug - Dec 2015, Director of User Experience and Software Development
+  - Designed and developed the pilot of the AsylumConnect Catalog
+  - Conducted user interviews and usability testing with LGBTQ asylum seekers, service providers, and immigrants rights experts
 
-### One Degree Partnership (Catalog 3.0)
+## Portfolio
 
-
-
-[AsylumConnect 2015-2016 Annual Report][3]
-[The Seattle Pilot of the AsylumConnect Catalog: A Case Study][4]
+- Jan 2016, [Seattle pilot][11] of the AsylumConnect catalog ([GitHub][12])
 
 [1]: http://www.asylumconnect.org/
 [2]: http://www.asylumconnectcatalog.org/
-[3]: https://drive.google.com/file/d/0B9qK9Uw5Fd7yOF9oTDY0YWw0WEk/preview
-[4]: https://drive.google.com/file/d/0B9qK9Uw5Fd7yRGVFeHNuSlFwT3c/preview
+[3]: https://issuu.com/asylumconnect/docs/ac_annual_report_15-16
+[4]: https://issuu.com/asylumconnect/docs/ac_case_study
 [5]: https://www.prnewswire.com/news-releases/asylumconnect-and-one-degree-join-forces-to-take-first-online-resource-database-for-lgbtq-asylum-seekers-nationwide-300528232.html
+[6]: http://www.asylumconnect.org/our-cause/
+[7]: http://www.asylumconnect.org/press-and-recognition/
+[8]: https://hack4impact.org/projects/asylum-connect-catalog
+[9]: https://www.prnewswire.com/news-releases/asylumconnect-and-one-degree-join-forces-to-take-first-online-resource-database-for-lgbtq-asylum-seekers-nationwide-300528232.html
+[10]: https://issuu.com/asylumconnect/docs/annual_20report_201617
+[11]: http://asylumconnect.github.io/
+[12]: https://github.com/AsylumConnect/asylumconnect.github.io
+[13]: /assets/images/AC-logo.png

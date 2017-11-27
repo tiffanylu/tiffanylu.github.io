@@ -107,3 +107,18 @@ html, body {
     height: auto;
   }
 }
+
+h1 {
+  img {
+    height: 1em;
+  }
+}
+
+h4 {
+  font-style: italic;
+}
+
+h5 {
+  text-transform: uppercase;
+  font-weight: bold;
+}
