@@ -3,8 +3,8 @@ title: TheWALK
 layout: project
 ---
 # ![The WALK][17]
-#### Aug 2011 - Dec 2014
-##### Art Director, Internal Affairs Coordinator, Writer
+### Aug 2011 - Dec 2014
+#### Art Director, Internal Affairs Coordinator, Writer
 
 Founded in 2006, *The WALK* is the University of Pennsylvania's only fashion magazine. Completely student-run, it was named one of the country's best college fashion magazines in 2013 by *Teen Vogue* and has won numerous awards for journalism and design from the Columbia Scholastic Press Association (CSPA).
 

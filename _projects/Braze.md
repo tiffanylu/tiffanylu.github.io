@@ -3,8 +3,8 @@ title: Braze
 layout: project
 ---
 # ![][8] Braze
-#### Mar 2016 - Nov 2017, Jun - Aug 2015
-##### Software Engineer, Support Engineer, Customer Success Intern
+### Mar 2016 - Nov 2017, Jun - Aug 2015
+#### Software Engineer, Support Engineer, Customer Success Intern
 
 [Braze][1]'s lifecycle engagement platform empowers brands to humanize connections with customers, resulting in better experiences and retention. Each month, tens of billions of messages associated with nearly 2 billion active users are managed through its technology. Braze has been named a Leader in the Forrester Wave™: Mobile Engagement Automation, a Cloud100 Rising Star in Forbes, and #21 in the Deloitte Technology Fast 500 List.
 

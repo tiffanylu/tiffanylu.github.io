@@ -1,5 +1,6 @@
 {
   "nodes": [
+    {"id": "Undergraduate Thesis", "group": 2},
     {"id": "AsylumConnect", "group": 2},
     {"id": "Lesbians Who Tech", "group": 2},
     {"id": "Braze", "group": 2},
@@ -28,6 +29,9 @@
     {"id": "Intersectional Feminism", "group": 1}
   ],
   "links": [
+    {"source": "Undergraduate Thesis", "target": "Democratization of Technology", "value": 1},
+    {"source": "Undergraduate Thesis", "target": "Writing", "value": 1},
+
     {"source": "AsylumConnect", "target": "Software Development", "value": 1},
     {"source": "AsylumConnect", "target": "Open Source", "value": 1},
     {"source": "AsylumConnect", "target": "UI/UX", "value": 1},

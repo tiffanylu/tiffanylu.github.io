@@ -81,6 +81,13 @@ d3.json("data/portfolio-meta.json", function(error, graph) {
     .attr("cx", function(d) { return d.x; })
     .attr("cy", function(d) { return d.y; });
   }
+
+  $(document).ready(function(){
+    $('circle').tooltip({
+      'container': 'body',
+      'placement': 'right'
+    });
+  });
 });
 
 function onNodeClicked() {
@@ -141,10 +148,3 @@ function color(i) {
       return "#000000";
   }
 }
-
-$(document).ready(function(){
-    $('circle').tooltip({
-      'container': 'body',
-      'placement': 'right'
-    });
-});
