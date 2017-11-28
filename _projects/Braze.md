@@ -10,20 +10,20 @@ layout: project
 
 ## Portfolio
 
-- [iOS SDK][2]\* (closed source)
-  - Developed features, fixed bugs, coordinated SDK releases, and maintained platform health
+- iOS SDK\* (closed source on [GitHub][2])
+  - Developed features, fixed bugs, maintained platform health, coordinated SDK releases
   - Rearchitected server-side architecture and on-disk data persistence code
   - Redesigned the public test app ([Github][7]) for better user experience
   - Used Objective-C, Cocoapods, Xcode, Buddybuild, Swift, Carthage
-- [React Native SDK][3] (open source)
+- React Native SDK (open source on [GitHub][3])
   - Led cross-platform development
   - Managed open-source code contributions and SDK releases
   - Used Javascript, Node.js, npm, Android Studio, Java
-- [Unity SDK][4] (open source)
-  - Developed an iOS build automation tool in C# that helped close $150k+ in upsell and renewals
 - [Braze Documentation][5] and [Braze Academy][6]
   - Designed and developed documentation sites from scratch, migrating content from deprecated platform
   - Used Jekyll, JavaScript, jQuery, Bootstrap, Sass, HTML/CSS
+- Unity SDK (open source on [GitHub][4])
+  - Developed an iOS build automation tool in C# that helped close $150k+ in upsell and renewals
 
 \*Braze's iOS SDK consumes 3B+ data points and sends 100M+ messages daily in apps like Soundcloud and Lyft. It was ranked by MightySignal as the [Most-Used Push SDK in the Top 200 iOS Apps][9].
 

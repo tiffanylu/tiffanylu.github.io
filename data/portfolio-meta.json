@@ -6,8 +6,8 @@
     {"id": "Braze", "group": 1},
     {"id": "The WALK", "group": 1},
     {"id": "Cesium", "group": 1},
+    {"id": "QPenn", "group": 1},
 
-    {"id": "Research", "group": 2},
     {"id": "Software Development", "group": 2},
 
     {"id": "UI/UX", "group": 3},
@@ -23,12 +23,14 @@
     {"source": "Cesium", "target": "Software Development", "value": 1},
 
     {"source": "Doing #Tech4Good Well", "target": "Writing", "value": 1},
-    {"source": "Doing #Tech4Good Well", "target": "Research", "value": 1},
     {"source": "Doing #Tech4Good Well", "target": "Software Development", "value": 1},
 
     {"source": "AsylumConnect", "target": "Software Development", "value": 1},
     {"source": "AsylumConnect", "target": "UI/UX", "value": 1},
     {"source": "AsylumConnect", "target": "Queer Advocacy", "value": 1},
+
+    {"source": "QPenn", "target": "Queer Advocacy", "value": 1},
+    {"source": "QPenn", "target": "Graphic Design", "value": 1},
 
     {"source": "Lesbians Who Tech", "target": "Queer Advocacy", "value": 1},
     {"source": "Lesbians Who Tech", "target": "Public Speaking", "value": 1},

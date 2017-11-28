@@ -11,7 +11,7 @@ var svg = d3.select("svg")
 var simulation = d3.forceSimulation()
 .force("link", d3.forceLink()
   .id(function(d) { return d.id; })
-  .distance(function(d) {return d.value}).strength(0.05))
+  .distance(function(d) {return d.value}).strength(0.03))
 .force("charge", d3.forceManyBody())
 .force("center", d3.forceCenter(width / 2, height / 2));
 
@@ -33,10 +33,10 @@ d3.json("data/portfolio-meta.json", function(error, graph) {
   .attr("r", function(d) {
     switch(d.group) {
       case 1:
-        return 10;
+        return 12;
         break;
       default:
-        return 5;
+        return 6;
     }
   })
   .attr("fill", function(d) { return color(d.group); })
