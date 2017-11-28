@@ -16,6 +16,8 @@ AsylumConnect has received recognition and support from the United Nations, MCJ/
 
 ## Portfolio
 
+As Director of Technology, I oversee design and development of the [AsylumConnect Catalog][2].
+
 - Nov 2017, [AsylumConnect 2016-2017 Annual Report][10]
 - Sept 2017, [AsylumConnect and One Degree Join Forces to Take First Online Resource Database for LGBTQ Asylum Seekers Nationwide][9]
 - Dec 2016 - Aug 2017, AsylumConnect expands to Philadelphia via partnership with [Hack4Impact][8] at the University of Pennsylvania
