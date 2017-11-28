@@ -108,8 +108,9 @@ function onNodeClicked() {
 function showDescription() {
   $('.description.active').removeClass('active');
   var descriptionId = '#' + $(this).attr('name').replace(/\W+/g, '');
-  console.log(descriptionId);
+  // console.log(descriptionId);
   $(descriptionId).addClass('active');
+  $('.description-container').animate({ scrollTop: 0 }, 0);
 }
 
 function highlightEdges() {
@@ -118,7 +119,7 @@ function highlightEdges() {
   var $node = $(this);
   $node.addClass('active-node');
   var edgesArray = $node.data('edges');
-  console.log('node name: ' + $node.attr('name') + ' edges: ' + edgesArray);
+  // console.log('node name: ' + $node.attr('name') + ' edges: ' + edgesArray);
   if (edgesArray) {
     for (var i = 0; i < edgesArray.length; i++) {
       var $edgeNode = $('circle[name="' + edgesArray[i] + '"]');
@@ -148,23 +149,23 @@ function color(i) {
   switch (i) {
     case 1:
       // projects
-      return "#d1e9c9";
+      return "#d5d5d5";
       break;
     case 2:
       // tech
-      return "#72ccd4";
+      return "#2c6fb2";
       break;
     case 3:
       // design
-      return "#fffb9d";
+      return "#fbd05b";
       break;
     case 4:
       // communication
-      return "#f9a746";
+      return "#fd6c7e";
       break;
     case 5:
       // activism
-      return "#fd6c7e";
+      return "#d1e9c9";
       break;
     default:
       return "#000000";
