@@ -14,11 +14,11 @@ I transcribed Carl Sagan's ["Wonder and Skepticism"][10] into a textual interpre
 
 ![][12]
 2012, Lasercut linoleum block
-{: style="text-align: right;"}
+{: .caption}
 
 ![][13]
 2012, Linotype print
-{: style="text-align: right;"}
+{: .caption}
 
 As a fun side note, here's an additional excerpt from Sagan's piece:
 
@@ -46,7 +46,7 @@ While it conveyed the clean, bold aesthetic and sense of movement I was aiming f
 
 ![][8]
 2012, ZONING, Adobe Photoshop and InDesign
-{: style="text-align: right;"}
+{: .caption}
 
 Inspired by a Victorian townhouse on South Street, Philadelphia, PA, ZONING is an architectural font that remains true to its late seventeenth century root Queen Anne values of picturesque coherence and informality. The Aesthetic Movement of the 1890s, which revitalized Philadelphian townhouse design, is apparent in the font’s thinned architectural lines, relative unornamentation, and balanced asymmetries. Form follows function with the lettering’s stacking and gridding capacity: ZONING’s wide range of applicability runs the gamut from  modernized subway design to children’s educational television.
 
@@ -69,7 +69,7 @@ I visually transcribed "The Light" by Blackmill into the paired visual pieces:
 <script type="text/javascript" src="//e.issuu.com/embed.js" async="true"></script>
 
 2012, Printed and hand-bound book describing my creative process, Adobe InDesign
-{: style="text-align: right;"}
+{: .caption}
 
 
 [1]: /assets/images/logo-inspiration.jpg

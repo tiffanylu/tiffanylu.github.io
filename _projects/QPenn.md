@@ -14,8 +14,9 @@ QPenn week consists of events hosted by the various constituent groups of Lambda
 
 ### Logo
 ![][1]
-*Designer, QPenn Logo*
-{: style="text-align: right;"}
+
+Designer, Adobe Illustrator
+{: .caption}
 
 
 ### Supplement
@@ -23,8 +24,9 @@ As Editor for the QPenn Supplement to Penn's student paper, [*The Daily Pennsylv
 
 <div data-configid="31926889/55818281" style="width:100%; height:300px;" class="issuuembed"></div>
 <script type="text/javascript" src="//e.issuu.com/embed.js" async="true"></script>
-*Designer, QPenn Supplement*
-{: style="text-align: right;"}
+
+Designer, Adobe InDesign and Photoshop
+{: .caption}
 
 
 [1]: /assets/images/qpenn-logo.jpg

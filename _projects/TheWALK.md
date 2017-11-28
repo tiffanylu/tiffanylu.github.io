@@ -13,7 +13,7 @@ layout: project
 <div data-configid="31926889/55818311" style="width:100%; height:300px;" class="issuuembed"></div>
 <script type="text/javascript" src="//e.issuu.com/embed.js" async="true"></script>
 Art Director, *Winter 2014* Issue, *The WALK*
-{: style="text-align: right;"}
+{: .caption}
 
 - Art Director
   - [*Winter 2014*][4]

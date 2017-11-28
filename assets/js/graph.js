@@ -53,7 +53,7 @@ d3.json("data/portfolio-meta.json", function(error, graph) {
   .data(graph.nodes)
   .enter().append("text")
             .text(function (d) { return d.id; })
-            .style("text-anchor", "right")
+            .style("text-anchor", "left")
             .style("fill", "#555")
             .style("font-size", 12);
 
