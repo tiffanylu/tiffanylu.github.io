@@ -46,6 +46,9 @@
     {"source": "Software Development", "target": "AsylumConnect", "value": 1},
     {"source": "Software Development", "target": "Cesium", "value": 1},
 
+    {"source": "Graphic Design", "target": "QPenn", "value": 1},
+    {"source": "Graphic Design", "target": "The WALK", "value": 1},
+
     {"source": "Writing", "target": "Doing #Tech4Good Well", "value": 1},
     {"source": "Writing", "target": "The WALK", "value": 1}
   ]
