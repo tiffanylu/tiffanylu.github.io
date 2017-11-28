@@ -3,8 +3,8 @@ title: LesbiansWhoTech
 layout: project
 ---
 # ![][10] Lesbians Who Tech
-#### September 2017
-##### Hackathon Lead
+### September 2017
+#### Hackathon Lead
 
 [Lesbians Who Tech][2] is a community of queer women in and around tech who are working to diversify STEM and build inclusive networks.
 
@@ -18,7 +18,7 @@ As [AsylumConnect][4]'s Director of Technology, I was invited to lead a project 
 >
 > Thousands ​of LGBTQ immigrants and asylum seekers come to the U.S. every year, fleeing persecution based on their sexual orientation and/or gender identity. Yet even upon arrival, they often struggle to meet fundamental human needs. AsylumConnect is a nonprofit that helps queer asylum seekers find lifesaving resources. Help us ideate ways to better serve our population, from amplifying their voices to safely integrating into local communities.
 
-As project leaders, we educated hackathon attendees about the plight of LGBTQ asylum seekers in the United States, led a collective brainstorming session around organizationally identified challenges, and facilitated the hackathon team in building their project.
+We educated hackathon attendees about the plight of LGBTQ asylum seekers in the United States, led a collective brainstorming session around organizationally identified challenges, and facilitated the hackathon team in building their project.
 
 The team we led placed second with **AsylumConnect Community**, a social extension to the [AsylumConnect resource catalog][9] that aimed to provide asylum seekers with a sense of psychological safety, security, and community.
 

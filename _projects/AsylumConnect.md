@@ -3,37 +3,24 @@ title: AsylumConnect
 layout: project
 ---
 # ![][13] AsylumConnect
-#### Aug 2015 - Present
-##### Director of Technology
+### Aug 2015 - Present
+#### Director of Technology
 
 Founded in 2014, [AsylumConnect][1] is a fiscally sponsored nonprofit creating the first online resource database for LGBTQ asylum seekers in the United States. The [AsylumConnect catalog][2] helps persecuted LGBTQ peoples identify and access verified human needs resources upon their arrival in the U.S.
 
 AsylumConnect has received recognition and support from the United Nations, MCJ/Amelior Foundation, Millennium Campus Network (MCN), Business Today, Clinton Global Initiative University (CGI U) and more.
 
 - [Our Cause][6]
-- [Press and Recognition][7]
 - [Our Product (The AsylumConnect Catalog)][2]
+- [Press and Recognition][7]
 
-## Progress
+## Portfolio
 
 - Nov 2017, [AsylumConnect 2016-2017 Annual Report][10]
 - Sept 2017, [AsylumConnect and One Degree Join Forces to Take First Online Resource Database for LGBTQ Asylum Seekers Nationwide][9]
 - Dec 2016 - Aug 2017, AsylumConnect expands to Philadelphia via partnership with [Hack4Impact][8] at the University of Pennsylvania
 - Nov 2016, [The Seattle Pilot of the AsylumConnect Catalog: A Case Study][4]
 - Sept 2016, [AsylumConnect 2015-2016 Annual Report][3]
-
-## Roles
-
-- Jan 2016 - Present, Director of Technology
-  - Oversaw technical development of [the AsylumConnect catalog][2]
-  - Orchestrated partnerships, applied for grants, and co-authored case studies and other publications
-  - Trained and managed a volunteer team of distributed web developers and UI/UX designers
-- Aug - Dec 2015, Director of User Experience and Software Development
-  - Designed and developed the pilot of the AsylumConnect Catalog
-  - Conducted user interviews and usability testing with LGBTQ asylum seekers, service providers, and immigrants rights experts
-
-## Portfolio
-
 - Jan 2016, [Seattle pilot][11] of the AsylumConnect catalog ([GitHub][12])
 
 [1]: http://www.asylumconnect.org/

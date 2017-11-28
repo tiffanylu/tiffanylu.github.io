@@ -1,39 +1,33 @@
 {
   "nodes": [
-    {"id": "Undergraduate Thesis", "group": 2},
+    {"id": "Doing Tech4Good Well", "group": 2},
     {"id": "AsylumConnect", "group": 2},
     {"id": "Lesbians Who Tech", "group": 2},
     {"id": "Braze", "group": 2},
-    {"id": "Point A", "group": 2},
-    {"id": "Penn Haven Housing Cooperative", "group": 2},
-    {"id": "TEALS", "group": 2},
     {"id": "The WALK", "group": 2},
+    {"id": "Cesium.js", "group": 2},
 
-    {"id": "Tech", "group": 3},
+    {"id": "Computer Science", "group": 3},
     {"id": "Design", "group": 3},
     {"id": "Communication", "group": 3},
-    {"id": "Causes", "group": 3},
+    {"id": "Activism", "group": 3},
 
+    {"id": "Research", "group": 1},
     {"id": "Software Development", "group": 1},
-    {"id": "Open Source", "group": 1},
     {"id": "UI/UX", "group": 1},
     {"id": "Graphic Design", "group": 1},
-    {"id": "Branding", "group": 1},
     {"id": "Public Speaking", "group": 1},
-    {"id": "Conflict Mediation", "group": 1},
     {"id": "Writing", "group": 1},
-    {"id": "Education", "group": 1},
-    {"id": "Democratization of Technology", "group": 1},
-    {"id": "Non-hierarchical Organizing", "group": 1},
     {"id": "Queer Advocacy", "group": 1},
     {"id": "Intersectional Feminism", "group": 1}
   ],
   "links": [
-    {"source": "Undergraduate Thesis", "target": "Democratization of Technology", "value": 1},
-    {"source": "Undergraduate Thesis", "target": "Writing", "value": 1},
+    {"source": "Cesium.js", "target": "Software Development", "value": 1},
+
+    {"source": "Doing Tech4Good Well", "target": "Writing", "value": 1},
+    {"source": "Doing Tech4Good Well", "target": "Research", "value": 1},
 
     {"source": "AsylumConnect", "target": "Software Development", "value": 1},
-    {"source": "AsylumConnect", "target": "Open Source", "value": 1},
     {"source": "AsylumConnect", "target": "UI/UX", "value": 1},
     {"source": "AsylumConnect", "target": "Queer Advocacy", "value": 1},
 
@@ -41,34 +35,19 @@
     {"source": "Lesbians Who Tech", "target": "Public Speaking", "value": 1},
     {"source": "Lesbians Who Tech", "target": "Intersectional Feminism", "value": 1},
 
-    {"source": "Point A", "target": "Non-hierarchical Organizing", "value": 1},
-    {"source": "Point A", "target": "Conflict Mediation", "value": 1},
-    {"source": "Point A", "target": "Public Speaking", "value": 1},
-
-    {"source": "Penn Haven Housing Cooperative", "target": "Non-hierarchical Organizing", "value": 1},
-    {"source": "Penn Haven Housing Cooperative", "target": "Communication", "value": 1},
-
     {"source": "Braze", "target": "Software Development", "value": 1},
-    {"source": "Braze", "target": "Open Source", "value": 1},
     {"source": "Braze", "target": "UI/UX", "value": 1},
-    {"source": "Braze", "target": "Education", "value": 1},
 
     {"source": "The WALK", "target": "Graphic Design", "value": 1},
     {"source": "The WALK", "target": "Writing", "value": 1},
 
-    {"source": "Tech", "target": "Software Development", "value": 1},
-    {"source": "Tech", "target": "Open Source", "value": 1},
-    {"source": "Tech", "target": "Democratization of Technology", "value": 1},
+    {"source": "Computer Science", "target": "Research", "value": 1},
+    {"source": "Computer Science", "target": "Software Development", "value": 1},
     {"source": "Design", "target": "UI/UX", "value": 1},
     {"source": "Design", "target": "Graphic Design", "value": 1},
-    {"source": "Design", "target": "Branding", "value": 1},
     {"source": "Communication", "target": "Public Speaking", "value": 1},
-    {"source": "Communication", "target": "Conflict Mediation", "value": 1},
     {"source": "Communication", "target": "Writing", "value": 1},
-    {"source": "Communication", "target": "Education", "value": 1},
-    {"source": "Causes", "target": "Democratization of Technology", "value": 1},
-    {"source": "Causes", "target": "Non-hierarchical Organizing", "value": 1},
-    {"source": "Causes", "target": "Queer Advocacy", "value": 1},
-    {"source": "Causes", "target": "Intersectional Feminism", "value": 1}
+    {"source": "Activism", "target": "Queer Advocacy", "value": 1},
+    {"source": "Activism", "target": "Intersectional Feminism", "value": 1}
   ]
 }

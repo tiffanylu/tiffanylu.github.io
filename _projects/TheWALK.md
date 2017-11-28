@@ -6,7 +6,7 @@ layout: project
 ### Aug 2011 - Dec 2014
 #### Art Director, Internal Affairs Coordinator, Writer
 
-Founded in 2006, *The WALK* is the University of Pennsylvania's only fashion magazine. Completely student-run, it was named one of the country's best college fashion magazines in 2013 by *Teen Vogue* and has won numerous awards for journalism and design from the Columbia Scholastic Press Association (CSPA).
+*The WALK* is the University of Pennsylvania's premier fashion magazine. Completely student-run, it was named one of the country's best college fashion magazines in 2013 by *Teen Vogue* and has won numerous awards for journalism and design from the Columbia Scholastic Press Association (CSPA).
 
 ## Portfolio
 
@@ -37,17 +37,6 @@ Founded in 2006, *The WALK* is the University of Pennsylvania's only fashion mag
   - [2014 CSPA Gold Circle Awards for Magazines, Overall Design][2]
   - [2012 Gold Circle Awards for Magazines, Non-fiction Interview][3], 2012
 - ["The Best College Fashion Magazines Across the Country"][8], 2013, *Teen Vogue*
-
-## Roles
-
-- 2013 - 2014, Art Director
-  - Oversaw page layout and overall visual voice
-  - Trained and led a team of 10-15 layout designers
-- 2012 - 2013, Internal Affairs Coordinator
-  - Organized all staff social events
-- 2012 - 2013, Senior Layout Designer
-- 2011 - 2013, Writer
-- 2011 - 2012, Layout Designer
 
 [1]: http://cspa.columbia.edu/recepient-lists/2015-awards-student-work-crown-awards-collegiate-recipients
 [2]: http://cspa.columbia.edu/recepient-lists/2014-awards-student-work-gold-circle-awards-collegiate-recipients

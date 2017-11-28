@@ -1,8 +1,8 @@
 ---
-title: UndergraduateThesis
+title: DoingTech4GoodWell
 layout: project
 ---
-# Undergraduate Thesis
+# Undergraduate Senior Capstone Thesis in Computer Science
 ### December 2015
 #### [Doing “Tech 4 Good” Well: Designing Technology Solutions for Sustainable Social Impact in Disadvantaged Communities][1]
 

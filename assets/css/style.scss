@@ -78,7 +78,11 @@ html, body {
     fill: #ffe2a6;
   }
 
-  &.active {
+  &.active-node {
+    fill: #ffc95b;
+  }
+
+  &.active-children {
     fill: #ffd275;
   }
 }
