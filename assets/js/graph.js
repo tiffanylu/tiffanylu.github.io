@@ -30,7 +30,15 @@ d3.json("data/portfolio-meta.json", function(error, graph) {
   .selectAll(".myText")
   .data(graph.nodes)
   .enter().append("circle")
-  .attr("r", function(d) { return 5 * d.group; })
+  .attr("r", function(d) {
+    switch(d.group) {
+      case 1:
+        return 10;
+        break;
+      default:
+        return 5;
+    }
+  })
   .attr("fill", function(d) { return color(d.group); })
   .attr("name", function(d) { return d.id; })
   .on("click", onNodeClicked)
@@ -139,14 +147,24 @@ function dragended(d) {
 function color(i) {
   switch (i) {
     case 1:
-      return "#ff9226";
+      // projects
+      return "#d1e9c9";
       break;
     case 2:
-      // return "#7a9bed";
-      return "#3564d9";
+      // tech
+      return "#72ccd4";
       break;
     case 3:
-      return "#a1e5f5";
+      // design
+      return "#fffb9d";
+      break;
+    case 4:
+      // communication
+      return "#f9a746";
+      break;
+    case 5:
+      // activism
+      return "#fd6c7e";
       break;
     default:
       return "#000000";

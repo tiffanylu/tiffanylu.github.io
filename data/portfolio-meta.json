@@ -1,31 +1,30 @@
 {
   "nodes": [
-    {"id": "Doing #Tech4Good Well", "group": 2},
-    {"id": "AsylumConnect", "group": 2},
-    {"id": "Lesbians Who Tech", "group": 2},
-    {"id": "Braze", "group": 2},
-    {"id": "The WALK", "group": 2},
-    {"id": "Cesium", "group": 2},
+    {"id": "Doing #Tech4Good Well", "group": 1},
+    {"id": "AsylumConnect", "group": 1},
+    {"id": "Lesbians Who Tech", "group": 1},
+    {"id": "Braze", "group": 1},
+    {"id": "The WALK", "group": 1},
+    {"id": "Cesium", "group": 1},
 
-    {"id": "Engineering", "group": 3},
-    {"id": "Design", "group": 3},
-    {"id": "Communication", "group": 3},
-    {"id": "Activism", "group": 3},
+    {"id": "Research", "group": 2},
+    {"id": "Software Development", "group": 2},
 
-    {"id": "Research", "group": 1},
-    {"id": "Software Development", "group": 1},
-    {"id": "UI/UX", "group": 1},
-    {"id": "Graphic Design", "group": 1},
-    {"id": "Public Speaking", "group": 1},
-    {"id": "Writing", "group": 1},
-    {"id": "Queer Advocacy", "group": 1},
-    {"id": "Intersectional Feminism", "group": 1}
+    {"id": "UI/UX", "group": 3},
+    {"id": "Graphic Design", "group": 3},
+
+    {"id": "Public Speaking", "group": 4},
+    {"id": "Writing", "group": 4},
+
+    {"id": "Queer Advocacy", "group": 5},
+    {"id": "Intersectional Feminism", "group": 5}
   ],
   "links": [
     {"source": "Cesium", "target": "Software Development", "value": 1},
 
     {"source": "Doing #Tech4Good Well", "target": "Writing", "value": 1},
     {"source": "Doing #Tech4Good Well", "target": "Research", "value": 1},
+    {"source": "Doing #Tech4Good Well", "target": "Software Development", "value": 1},
 
     {"source": "AsylumConnect", "target": "Software Development", "value": 1},
     {"source": "AsylumConnect", "target": "UI/UX", "value": 1},
@@ -41,21 +40,11 @@
     {"source": "The WALK", "target": "Graphic Design", "value": 1},
     {"source": "The WALK", "target": "Writing", "value": 1},
 
-    {"source": "Engineering", "target": "Research", "value": 1},
-    {"source": "Engineering", "target": "Software Development", "value": 1},
-    {"source": "Design", "target": "UI/UX", "value": 1},
-    {"source": "Design", "target": "Graphic Design", "value": 1},
-    {"source": "Communication", "target": "Public Speaking", "value": 1},
-    {"source": "Communication", "target": "Writing", "value": 1},
-    {"source": "Activism", "target": "Queer Advocacy", "value": 1},
-    {"source": "Activism", "target": "Intersectional Feminism", "value": 1},
-
     {"source": "Software Development", "target": "Braze", "value": 1},
     {"source": "Software Development", "target": "AsylumConnect", "value": 1},
     {"source": "Software Development", "target": "Cesium", "value": 1},
 
     {"source": "Writing", "target": "Doing #Tech4Good Well", "value": 1},
-    {"source": "Writing", "target": "The WALK", "value": 1},
-    {"source": "Writing", "target": "Communication", "value": 1}
+    {"source": "Writing", "target": "The WALK", "value": 1}
   ]
 }
