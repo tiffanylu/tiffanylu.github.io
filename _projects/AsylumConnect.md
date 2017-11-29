@@ -10,20 +10,36 @@ Founded in 2014, [AsylumConnect][1] is a fiscally sponsored nonprofit creating t
 
 AsylumConnect has received recognition and support from the United Nations, MCJ/Amelior Foundation, Millennium Campus Network (MCN), Business Today, Clinton Global Initiative University (CGI U) and more.
 
-- [Our Cause][6]
-- [Our Product (The AsylumConnect Catalog)][2]
-- [Press and Recognition][7]
+As Director of Technology, I **oversee design and development** of the **[AsylumConnect Catalog][2]**.
 
-## Portfolio
+[![][14]][2]
+Screenshot of the AsylumConnect Catalog web application
+{: .caption}
 
-As Director of Technology, I oversee design and development of the [AsylumConnect Catalog][2].
+*See [Our Cause][6] for more.*
 
-- Nov 2017, [AsylumConnect 2016-2017 Annual Report][10]
+## Coverage
+
+<div data-configid="26272987/55552738" style="width:100%; height:300px;" class="issuuembed"></div>
+<script type="text/javascript" src="//e.issuu.com/embed.js" async="true"></script>
+Nov 2017, [AsylumConnect 2016-2017 Annual Report][10]
+{: .caption}
+
+<div data-configid="26272987/40455023" style="width:100%; height:300px;" class="issuuembed"></div>
+<script type="text/javascript" src="//e.issuu.com/embed.js" async="true"></script>
+Nov 2016, [The Seattle Pilot of the AsylumConnect Catalog: A Case Study][4]
+{: .caption}
+
+<div data-configid="26272987/38815395" style="width:100%; height:300px;" class="issuuembed"></div>
+<script type="text/javascript" src="//e.issuu.com/embed.js" async="true"></script>
+Sept 2016, [AsylumConnect 2015-2016 Annual Report][3]
+{: .caption}
+
 - Sept 2017, [AsylumConnect and One Degree Join Forces to Take First Online Resource Database for LGBTQ Asylum Seekers Nationwide][9]
 - Dec 2016 - Aug 2017, AsylumConnect expands to Philadelphia via partnership with [Hack4Impact][8] at the University of Pennsylvania
-- Nov 2016, [The Seattle Pilot of the AsylumConnect Catalog: A Case Study][4]
-- Sept 2016, [AsylumConnect 2015-2016 Annual Report][3]
 - Jan 2016, [Seattle pilot][11] of the AsylumConnect catalog ([GitHub][12])
+
+*See our [Press and Recognition][7] for more.*
 
 [1]: http://www.asylumconnect.org/
 [2]: http://www.asylumconnectcatalog.org/
@@ -38,3 +54,4 @@ As Director of Technology, I oversee design and development of the [AsylumConnec
 [11]: http://asylumconnect.github.io/
 [12]: https://github.com/AsylumConnect/asylumconnect.github.io
 [13]: /assets/images/AC-logo.png
+[14]: /assets/images/asylumconnect.png

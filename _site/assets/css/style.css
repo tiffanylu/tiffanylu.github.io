@@ -534,7 +534,9 @@ code {
   transition: fill .8s ease; }
   .nodes circle:hover {
     transition: fill .2s ease;
-    fill: #ffe2bd; }
+    fill: #6eafff; }
+    .nodes circle:hover.active-children {
+      fill: #6eafff; }
   .nodes circle.active-node {
     transition: fill 1s ease;
     fill: #ff9b20; }

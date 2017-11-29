@@ -85,7 +85,11 @@ code {
 
   &:hover {
     transition: fill .2s ease;
-    fill: #ffe2bd;
+    fill: #6eafff;
+
+    &.active-children {
+      fill: #6eafff;
+    }
   }
 
   &.active-node {

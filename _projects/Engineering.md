@@ -6,7 +6,18 @@ layout: project
 
 ## Product Development
 
-### GyroCup
+### ![][15] GyroCup (2015)
+
+My team's final product for MEAM 415: Introduction to Product Design was the GyroCup: a gyroscopic cup holder that uses the liquid weight of a beverage to keep it upright, regardless of the bike's orientation. Our product was awarded first place at the MEAM 415 Design Fair, which showcased final products from two Intro to Product Design classes.
+
+![][16]
+Prototype, Laserprinted
+{: .caption}
+
+![][17]
+Final product, 3-D Printed
+{: .caption}
+
 
 ## Software Development
 
@@ -44,3 +55,6 @@ Cesium serves terrain imagery via graphical map tiles served by various imagery 
 [12]: https://github.com/AnalyticalGraphicsInc/cesium/blob/1.18/CHANGES.md
 [13]: https://github.com/AnalyticalGraphicsInc/cesium/issues/3063
 [14]: https://github.com/AnalyticalGraphicsInc/cesium/issues/3027
+[15]: /assets/images/gyrocup-logo.jpg
+[16]: /assets/images/gyrocup-prototype.jpg
+[17]: /assets/images/gyrocup-final.jpg

@@ -10,10 +10,8 @@ var simulation = d3.forceSimulation()
 .force("link", d3.forceLink()
   .id(function(d) { return d.id; })
   .distance(function(d) {return 75 * d.value}).strength(1))
-.force("charge", d3.forceManyBody().strength(-400))
+.force("charge", d3.forceManyBody().strength(-600))
 .force("center", d3.forceCenter(width / 2, height / 2));
-
-simulation.gravity
 
 d3.json("data/portfolio-meta.json", function(error, graph) {
   if (error) throw error;
@@ -57,7 +55,7 @@ d3.json("data/portfolio-meta.json", function(error, graph) {
             .text(function (d) { return d.id; })
             .style("text-anchor", "middle")
             .style("fill", "#555")
-            .style("font-size", function (d) { return 10 + d.value });
+            .style("font-size", function (d) { return 10 + 2 * d.scale });
 
   simulation
   .nodes(graph.nodes)
