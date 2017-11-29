@@ -6,7 +6,7 @@ layout: project
 
 ### Cooperativism
 
-#### Point A
+#### ![][9] Point A
 
 [Point A][5] is working to create a network of ambitious and engaged income-sharing egalitarian urban communes as a starting point on the road to a more humane, satisfying, and sustainable world for all. Point A is a project of the [Federation of Egalitarian Communities (FEC)][6].
 
@@ -68,3 +68,4 @@ I underwent SAVA training in 2013 and subsequently led anti-violence trainings i
 [6]: http://www.thefec.org/
 [7]: http://smiling-hogshead-ranch.tumblr.com/become-a-member
 [8]: http://www.vdayupenn.org/
+[9]: /assets/images/point-a-logo.jpg

@@ -12,6 +12,10 @@ html, body {
   line-height: 160%;
   position: fixed;
   letter-spacing: 0.4px;
+
+  b, strong {
+    font-weight: 600;
+  }
 }
 
 

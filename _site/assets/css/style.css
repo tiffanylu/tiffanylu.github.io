@@ -478,6 +478,8 @@ html, body {
   line-height: 160%;
   position: fixed;
   letter-spacing: 0.4px; }
+  html b, html strong, body b, body strong {
+    font-weight: 600; }
 
 blockquote, code, .caption, .key, h1, h2, h3, h4, h5, h6 {
   font-family: 'Roboto Mono', monospace; }
