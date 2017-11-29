@@ -185,3 +185,19 @@ blockquote {
   box-shadow: 5px 5px 30px -5px #d5d5d5;
   font-size: 10px;
 }
+
+a {
+  color: #639de5;
+
+  &:visited {
+    color: #426999;
+
+    &:hover {
+      color: #426999;
+    }
+  }
+
+  &:hover {
+    color: #639de5;
+  }
+}

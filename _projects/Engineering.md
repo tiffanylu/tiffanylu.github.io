@@ -18,7 +18,6 @@ Prototype, Laserprinted
 Final product, 3-D Printed
 {: .caption}
 
-
 ## Software Development
 
 ### ![][5] Cesium (2015)
@@ -58,3 +57,4 @@ Cesium serves terrain imagery via graphical map tiles served by various imagery 
 [15]: /assets/images/gyrocup-logo.jpg
 [16]: /assets/images/gyrocup-prototype.jpg
 [17]: /assets/images/gyrocup-final.jpg
+[18]: /assets/images/gyrocup-logo-full.png
