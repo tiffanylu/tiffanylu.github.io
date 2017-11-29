@@ -544,15 +544,6 @@ code {
   .nodes circle.active-children {
     fill: #ffe2bd; }
 
-.tooltip-arrow {
-  display: none; }
-
-.tooltip.right {
-  top: 0;
-  margin-top: 25px;
-  border-top: 5px solid transparent;
-  border-bottom: 5px solid transparent; }
-
 .description {
   transition: opacity .4s ease-out;
   opacity: 0;
