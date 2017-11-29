@@ -1,14 +1,20 @@
 ---
-title: Cesium
+title: Engineering
 layout: project
 ---
-# ![][5] Cesium
-### Aug - Dec 2015
-#### Contributor
+# Engineering
+
+## Product Development
+
+### GyroCup
+
+## Software Development
+
+### ![][5] Cesium (2015)
 
 [Cesium][6] is an open-source JavaScript library for world-class 3D globes and maps. It is downloaded more than 10,000 times every month and powers apps that reach millions of users. I contributed to two Cesium releases under the mentorship of lead developer Patrick Cozzi, during an [Open-Source Software Development course][9] at the University of Pennsylvania.
 
-## CZML Examples
+#### CZML Examples
 
 [CZML][8] is Cesium’s JSON schema for describing time-dynamic scenes. It uses information "packets" of graphical primitives (e.g., lines, points, shapes, sprites) and their change over time to describe graphical properties for individual objects in a scene. I helped smooth out the CZML learning curve for Cesium users by adding breadth and depth of CZML examples to the demo environment (Cesium Sandcastle).
 
@@ -17,7 +23,7 @@ layout: project
 - [Cesium Version 1.15 Release Notes][10]
   - See GitHub issues [#3027][14] and [#3063][13]
 
-## Optimizing Imagery Providers
+#### Optimizing Imagery Providers
 
 Cesium serves terrain imagery via graphical map tiles served by various imagery providers (e.g., OpenStreetMap, Bing, Mapbox). Despite vast amounts of shared logic between retrieving images from different providers, the Cesium codebase had separate classes and methods for each imagery provider. I abstracted specific imagery provider classes (e.g., `OpenStreetMapImageryProvider`, `TileMapServiceImageryProvider`) to inherit functionality from a generic `UrlTemplateImageryProvider`.
 

@@ -12,7 +12,7 @@ var simulation = d3.forceSimulation()
 .force("link", d3.forceLink()
   .id(function(d) { return d.id; })
   .distance(function(d) {return 75 * d.value}).strength(1))
-.force("charge", d3.forceManyBody().strength(-350))
+.force("charge", d3.forceManyBody().strength(-400))
 .force("center", d3.forceCenter(width / 2, height / 2));
 
 simulation.gravity
@@ -33,13 +33,15 @@ d3.json("data/portfolio-meta.json", function(error, graph) {
   .data(graph.nodes)
   .enter().append("circle")
   .attr("r", function(d) {
-    switch(d.group) {
-      case 1:
-        return 12;
-        break;
-      default:
-        return 6;
-    }
+    return 4 + 4 * d.value;
+    // return 8;
+    // switch(d.group) {
+    //   case 1:
+    //     return 12;
+    //     break;
+    //   default:
+    //     return 6;
+    // }
   })
   .attr("fill", function(d) { return color(d.group); })
   .attr("name", function(d) { return d.id; })
@@ -55,9 +57,9 @@ d3.json("data/portfolio-meta.json", function(error, graph) {
   .data(graph.nodes)
   .enter().append("text")
             .text(function (d) { return d.id; })
-            .style("text-anchor", "left")
+            .style("text-anchor", "middle")
             .style("fill", "#555")
-            .style("font-size", 9);
+            .style("font-size", function (d) { return 10 + d.value });
 
   simulation
   .nodes(graph.nodes)
@@ -94,7 +96,7 @@ d3.json("data/portfolio-meta.json", function(error, graph) {
 
     label
     .attr("x", function(d){ return d.x; })
-    .attr("y", function (d) {return d.y - 10; });
+    .attr("y", function (d) {return d.y - 10 - d.value * 4; });
   }
 });
 
@@ -148,18 +150,18 @@ function dragended(d) {
 }
 
 function color(i) {
-  return "#d5d5d5";
-  // switch (i) {
-  //   case 1:
-  //     // projects
-  //     return "#bddbff";
-  //     break;
-  //   case 2:
-  //     // skills
-  //     return "#2084ff";
-  //     // return "#2c6fb2";
-  //     break;
-  //   default:
-  //     return "#000000";
-  // }
+  // return "#d5d5d5";
+  switch (i) {
+    case 1:
+      // projects
+      return "#D3D3D3";
+      break;
+    case 2:
+      // skills
+      return "#808080";
+      // return "#2c6fb2";
+      break;
+    default:
+      return "#000000";
+  }
 }

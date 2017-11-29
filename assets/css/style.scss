@@ -14,7 +14,8 @@ html, body {
   letter-spacing: 0.4px;
 }
 
-h1, h2, h3, h4, h5, h6, blockquote, code, .caption, .key {
+
+blockquote, code, .caption, .key, h1, h2, h3, h4, h5, h6 {
   font-family: 'Roboto Mono', monospace;
 }
 
@@ -122,12 +123,15 @@ code {
   }
 }
 
-h1 {
-  font-weight: 700;
-  font-size: 36px;
+h1, h2, h3, h4, h5, h6 {
   img {
     height: 1em;
   }
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 36px;
 }
 
 h2 {

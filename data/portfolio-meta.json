@@ -1,26 +1,27 @@
 {
   "nodes": [
-    {"id": "Doing #Tech4Good Well", "group": 1},
-    {"id": "AsylumConnect", "group": 1},
-    {"id": "Lesbians Who Tech", "group": 1},
-    {"id": "Braze", "group": 1},
-    {"id": "The WALK", "group": 1},
-    {"id": "Cesium", "group": 1},
-    {"id": "QPenn", "group": 1},
+    {"id": "Doing #Tech4Good Well", "group": 1, "value": 4},
+    {"id": "AsylumConnect", "group": 1, "value": 4},
+    {"id": "Lesbians Who Tech", "group": 1, "value": 1},
+    {"id": "Braze", "group": 1, "value": 3},
+    {"id": "The WALK", "group": 1, "value": 3},
+    {"id": "QPenn", "group": 1, "value": 1},
+    {"id": "SHIFTSPACE", "group": 1, "value": 2},
 
-    {"id": "Software Development", "group": 2},
-    {"id": "UI/UX", "group": 2},
-    {"id": "Graphic Design", "group": 2},
-    {"id": "Writing", "group": 2},
-    {"id": "Activism", "group": 2}
+    {"id": "Engineering", "group": 2, "value": 1},
+    {"id": "UI/UX", "group": 2, "value": 1},
+    {"id": "Graphic Design", "group": 2, "value": 2},
+    {"id": "Writing", "group": 2, "value": 1},
+    {"id": "Activism", "group": 2, "value": 2}
   ],
   "links": [
-    {"source": "Cesium", "target": "Software Development", "value": 1},
+    {"source": "SHIFTSPACE", "target": "Engineering", "value": 1},
+    {"source": "SHIFTSPACE", "target": "Graphic Design", "value": 1},
 
     {"source": "Doing #Tech4Good Well", "target": "Writing", "value": 1},
-    {"source": "Doing #Tech4Good Well", "target": "Software Development", "value": 1},
+    {"source": "Doing #Tech4Good Well", "target": "Engineering", "value": 1},
 
-    {"source": "AsylumConnect", "target": "Software Development", "value": 1},
+    {"source": "AsylumConnect", "target": "Engineering", "value": 1},
     {"source": "AsylumConnect", "target": "UI/UX", "value": 1},
     {"source": "AsylumConnect", "target": "Activism", "value": 1},
 
@@ -28,26 +29,27 @@
     {"source": "QPenn", "target": "Graphic Design", "value": 1},
 
     {"source": "Lesbians Who Tech", "target": "Activism", "value": 1},
+    {"source": "Lesbians Who Tech", "target": "Engineering", "value": 1},
 
-    {"source": "Braze", "target": "Software Development", "value": 1},
+    {"source": "Braze", "target": "Engineering", "value": 1},
     {"source": "Braze", "target": "UI/UX", "value": 1},
 
     {"source": "The WALK", "target": "Graphic Design", "value": 1},
     {"source": "The WALK", "target": "Writing", "value": 1},
 
-    {"source": "Software Development", "target": "Braze", "value": 1},
-    {"source": "Software Development", "target": "AsylumConnect", "value": 1},
-    {"source": "Software Development", "target": "Cesium", "value": 1},
-    {"source": "Software Development", "target": "Lesbians Who Tech", "value": 1},
+    {"source": "Engineering", "target": "Braze", "value": 1},
+    {"source": "Engineering", "target": "AsylumConnect", "value": 1},
+    {"source": "Engineering", "target": "Lesbians Who Tech", "value": 1},
+    {"source": "Engineering", "target": "SHIFTSPACE", "value": 1},
 
     {"source": "Graphic Design", "target": "QPenn", "value": 1},
     {"source": "Graphic Design", "target": "The WALK", "value": 1},
+    {"source": "Graphic Design", "target": "SHIFTSPACE", "value": 1},
 
     {"source": "UI/UX", "target": "Braze", "value": 1},
     {"source": "UI/UX", "target": "AsylumConnect", "value": 1},
 
     {"source": "Writing", "target": "Doing #Tech4Good Well", "value": 1},
-    {"source": "Writing", "target": "Cesium", "value": 1},
     {"source": "Writing", "target": "The WALK", "value": 1}
   ]
 }
