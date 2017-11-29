@@ -11,9 +11,12 @@ var svg = d3.select("svg")
 var simulation = d3.forceSimulation()
 .force("link", d3.forceLink()
   .id(function(d) { return d.id; })
-  .distance(function(d) {return d.value}).strength(0.03))
+
+  .distance(function(d) {return 80 * d.value}).strength(1))
 .force("charge", d3.forceManyBody())
 .force("center", d3.forceCenter(width / 2, height / 2));
+
+simulation.gravity
 
 d3.json("data/portfolio-meta.json", function(error, graph) {
   if (error) throw error;
@@ -55,7 +58,7 @@ d3.json("data/portfolio-meta.json", function(error, graph) {
             .text(function (d) { return d.id; })
             .style("text-anchor", "left")
             .style("fill", "#555")
-            .style("font-size", 12);
+            .style("font-size", 9);
 
   simulation
   .nodes(graph.nodes)
@@ -146,28 +149,18 @@ function dragended(d) {
 }
 
 function color(i) {
-  switch (i) {
-    case 1:
-      // projects
-      return "#d5d5d5";
-      break;
-    case 2:
-      // tech
-      return "#2c6fb2";
-      break;
-    case 3:
-      // design
-      return "#fbd05b";
-      break;
-    case 4:
-      // communication
-      return "#fd6c7e";
-      break;
-    case 5:
-      // activism
-      return "#d1e9c9";
-      break;
-    default:
-      return "#000000";
-  }
+  return "#d5d5d5";
+  // switch (i) {
+  //   case 1:
+  //     // projects
+  //     return "#bddbff";
+  //     break;
+  //   case 2:
+  //     // skills
+  //     return "#2084ff";
+  //     // return "#2c6fb2";
+  //     break;
+  //   default:
+  //     return "#000000";
+  // }
 }

@@ -72,7 +72,6 @@ code {
   position: absolute;
   top: 0;
   left: 0;
-  // background-color: #ddd;
 }
 
 .links line {
@@ -82,19 +81,17 @@ code {
 
 .nodes circle {
   transition: fill .8s ease;
-  // stroke: #fff;
-  // stroke-width: 1.5px;
 
   &:hover {
-    fill: #c6edf1;
+    fill: #ffe2bd;
   }
 
   &.active-node {
-    fill: #a3e1e6;
+    fill: #ff9b20;
   }
 
   &.active-children {
-    fill: #c6edf1;
+    fill: #ffe2bd;
   }
 }
 
@@ -169,6 +166,7 @@ blockquote {
 }
 
 .key {
+  z-index: -1;
   position: fixed;
   bottom: 50px;
   left: 50px;

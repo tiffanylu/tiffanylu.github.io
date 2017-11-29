@@ -533,11 +533,11 @@ code {
 .nodes circle {
   transition: fill .8s ease; }
   .nodes circle:hover {
-    fill: #c6edf1; }
+    fill: #ffe2bd; }
   .nodes circle.active-node {
-    fill: #a3e1e6; }
+    fill: #ff9b20; }
   .nodes circle.active-children {
-    fill: #c6edf1; }
+    fill: #ffe2bd; }
 
 .tooltip-arrow {
   display: none; }
@@ -597,6 +597,7 @@ blockquote {
   font-style: italic; }
 
 .key {
+  z-index: -1;
   position: fixed;
   bottom: 50px;
   left: 50px;

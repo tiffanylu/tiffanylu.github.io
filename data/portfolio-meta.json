@@ -9,15 +9,10 @@
     {"id": "QPenn", "group": 1},
 
     {"id": "Software Development", "group": 2},
-
-    {"id": "UI/UX", "group": 3},
-    {"id": "Graphic Design", "group": 3},
-
-    {"id": "Public Speaking", "group": 4},
-    {"id": "Writing", "group": 4},
-
-    {"id": "Queer Advocacy", "group": 5},
-    {"id": "Intersectional Feminism", "group": 5}
+    {"id": "UI/UX", "group": 2},
+    {"id": "Graphic Design", "group": 2},
+    {"id": "Writing", "group": 2},
+    {"id": "Activism", "group": 2}
   ],
   "links": [
     {"source": "Cesium", "target": "Software Development", "value": 1},
@@ -27,14 +22,12 @@
 
     {"source": "AsylumConnect", "target": "Software Development", "value": 1},
     {"source": "AsylumConnect", "target": "UI/UX", "value": 1},
-    {"source": "AsylumConnect", "target": "Queer Advocacy", "value": 1},
+    {"source": "AsylumConnect", "target": "Activism", "value": 1},
 
-    {"source": "QPenn", "target": "Queer Advocacy", "value": 1},
+    {"source": "QPenn", "target": "Activism", "value": 1},
     {"source": "QPenn", "target": "Graphic Design", "value": 1},
 
-    {"source": "Lesbians Who Tech", "target": "Queer Advocacy", "value": 1},
-    {"source": "Lesbians Who Tech", "target": "Public Speaking", "value": 1},
-    {"source": "Lesbians Who Tech", "target": "Intersectional Feminism", "value": 1},
+    {"source": "Lesbians Who Tech", "target": "Activism", "value": 1},
 
     {"source": "Braze", "target": "Software Development", "value": 1},
     {"source": "Braze", "target": "UI/UX", "value": 1},
