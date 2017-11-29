@@ -1,18 +1,18 @@
 {
   "nodes": [
-    {"id": "Doing #Tech4Good Well", "group": 1, "value": 4, "scale": 2},
-    {"id": "AsylumConnect", "group": 1, "value": 4, "scale": 2},
-    {"id": "Lesbians Who Tech", "group": 1, "value": 1, "scale": 2},
-    {"id": "Braze", "group": 1, "value": 3, "scale": 2},
-    {"id": "The WALK", "group": 1, "value": 3, "scale": 2},
-    {"id": "QPenn", "group": 1, "value": 1, "scale": 2},
-    {"id": "SHIFTSPACE", "group": 1, "value": 2, "scale": 2},
+    {"id": "Doing #Tech4Good Well", "group": 1, "value": 3, "scale": 1},
+    {"id": "AsylumConnect", "group": 1, "value": 3, "scale": 1},
+    {"id": "Lesbians Who Tech", "group": 1, "value": 1, "scale": 1},
+    {"id": "Braze", "group": 1, "value": 2, "scale": 1},
+    {"id": "The WALK", "group": 1, "value": 2, "scale": 1},
+    {"id": "QPenn", "group": 1, "value": 1, "scale": 1},
+    {"id": "SHIFTSPACE", "group": 1, "value": 1, "scale": 1},
 
-    {"id": "Engineering", "group": 2, "value": 1, "scale": 1},
-    {"id": "UI/UX", "group": 2, "value": 1, "scale": 1},
-    {"id": "Graphic Design", "group": 2, "value": 1, "scale": 1},
-    {"id": "Writing", "group": 2, "value": 1, "scale": 1},
-    {"id": "Activism", "group": 2, "value": 1, "scale": 1}
+    {"id": "Engineering", "group": 2, "value": 0, "scale": 2},
+    {"id": "UI/UX", "group": 2, "value": 0, "scale": 2},
+    {"id": "Graphic Design", "group": 2, "value": 0, "scale": 2},
+    {"id": "Writing", "group": 2, "value": 0, "scale": 2},
+    {"id": "Activism", "group": 2, "value": 0, "scale": 2}
   ],
   "links": [
     {"source": "SHIFTSPACE", "target": "Engineering", "value": 1},

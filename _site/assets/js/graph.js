@@ -9,9 +9,9 @@ var svg = d3.select("svg")
 var simulation = d3.forceSimulation()
 .force("link", d3.forceLink()
   .id(function(d) { return d.id; })
-  .distance(function(d) {return 75 * d.value}).strength(1))
-.force("charge", d3.forceManyBody().strength(-600))
-.force("center", d3.forceCenter(width / 2, height / 2));
+  .distance(function(d) {return 85 * d.value}).strength(1))
+.force("charge", d3.forceManyBody().strength(-1000))
+.force("center", d3.forceCenter(width / 2, height / 2 - 50));
 
 d3.json("data/portfolio-meta.json", function(error, graph) {
   if (error) throw error;
@@ -21,7 +21,6 @@ d3.json("data/portfolio-meta.json", function(error, graph) {
   .selectAll("line")
   .data(graph.links)
   .enter().append("line")
-  .attr("stroke", function(d) { return "#d3d3d3"; })
   .attr("stroke-width", function(d) { return Math.sqrt(d.value); });
 
   var node = svg.append("g")
@@ -30,7 +29,7 @@ d3.json("data/portfolio-meta.json", function(error, graph) {
   .data(graph.nodes)
   .enter().append("circle")
   .attr("r", function(d) {
-    return 4 + 4 * d.value;
+    return 8 + 5 * d.value;
     // return 8;
     // switch(d.group) {
     //   case 1:
@@ -93,7 +92,7 @@ d3.json("data/portfolio-meta.json", function(error, graph) {
 
     label
     .attr("x", function(d){ return d.x; })
-    .attr("y", function (d) {return d.y - 10 - d.value * 4; });
+    .attr("y", function (d) {return d.y + (25 + d.value * 5); });
   }
 });
 
@@ -147,7 +146,6 @@ function dragended(d) {
 }
 
 function color(i) {
-  // return "#d5d5d5";
   switch (i) {
     case 1:
       // projects
@@ -155,8 +153,7 @@ function color(i) {
       break;
     case 2:
       // skills
-      return "#808080";
-      // return "#2c6fb2";
+      return "#595959";
       break;
     default:
       return "#000000";
