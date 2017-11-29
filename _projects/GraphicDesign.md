@@ -65,10 +65,12 @@ I visually transcribed "The Light" by Blackmill into the paired visual pieces:
 
 ### Creative Process Book
 
+I printed and hand-bound a book describing my creative process.
+
 <div data-configid="31926889/55820091" style="width:100%; height:300px;" class="issuuembed"></div>
 <script type="text/javascript" src="//e.issuu.com/embed.js" async="true"></script>
 
-2012, Printed and hand-bound book describing my creative process, Adobe InDesign
+2012, Adobe InDesign
 {: .caption}
 
 
