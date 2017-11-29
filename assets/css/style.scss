@@ -14,7 +14,7 @@ html, body {
   letter-spacing: 0.4px;
 }
 
-h1, h2, h3, h4, h5, h6, blockquote, code, .caption {
+h1, h2, h3, h4, h5, h6, blockquote, code, .caption, .key {
   font-family: 'Roboto Mono', monospace;
 }
 
@@ -166,4 +166,14 @@ blockquote {
   text-align: right;
   font-weight: 300;
   font-style: italic;
+}
+
+.key {
+  position: fixed;
+  bottom: 50px;
+  left: 50px;
+  background-color: rgba(100%, 100%, 100%, 0.8);
+  border-radius: 10px;
+  box-shadow: 5px 5px 30px -5px #d5d5d5;
+  font-size: 10px;
 }
