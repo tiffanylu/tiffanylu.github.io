@@ -23,6 +23,7 @@ d3.json("data/portfolio-meta.json", function(error, graph) {
   .selectAll("line")
   .data(graph.links)
   .enter().append("line")
+  .attr("stroke", function(d) { return "#d3d3d3"; })
   .attr("stroke-width", function(d) { return Math.sqrt(d.value); });
 
   var node = svg.append("g")
