@@ -150,7 +150,7 @@ function color(i) {
   switch (i) {
     case 1:
       // projects
-      return "#D3D3D3";
+      return "#dfdfdf";
       break;
     case 2:
       // skills

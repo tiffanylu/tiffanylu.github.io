@@ -61,7 +61,7 @@ I visually transcribed "The Light" by Blackmill into the paired visual pieces:
 
 ![][6]
 2012, Photography and Adobe Photoshop
-
+{: .caption}
 
 ### Creative Process Book
 

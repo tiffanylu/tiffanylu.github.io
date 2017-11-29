@@ -4,26 +4,6 @@ layout: project
 ---
 # Activism
 
-### Intersectional Feminism
-
-#### Student Anti-Violence Advocate (SAVA)
-
-Hosted by Penn Violence Prevention at the University of Pennsylvania, Student Anti-Violence Advocate (SAVA) training is an interactive 6-hour training that educates students about the prevalence and impact of sexual violence, relationship violence and stalking. It provides them with the skills to recognize and respond to interpersonal violence if they, or a friend, experiences it and prepares them to be an active bystander combating violence on campus.
-
-I underwent SAVA training in 2013 and subsequently led anti-violence trainings in student groups, such as the co-ed service fraternity Alpha Phi Omega.
-
-#### V-Day
-
-The [V-Day College Campaign][8] is one of the largest and most successful social justice movements on the University of Pennsylvania's campus. V-Day UPenn has become the catalyst for mobilizing both women and men to heighten awareness of violence against women of all ages, as well as the force that empowers individuals and the public-at-large to bring that violence to an end.
-
-The campaign puts on an annual benefit production of Eve Ensler's play, *The Vagina Monologues*, which reaches over 4,000 students, alumni, faculty, staff, and residents. Over the past seven years, V-Day UPenn has raised over $290,000 for its beneficiary, Women Organized Against Rape (WOAR), the only full-service rape crisis center in Philadelphia.
-
-I was a member of the Associate Board from 2014 - 2015, working to raise campaign awareness and supporting efforts to make the movement more inclusive of transgender women.
-
-![][1]
-Graphic Designer (2014 - 2015)
-{: .caption}
-
 ### Cooperativism
 
 #### Point A
@@ -55,6 +35,26 @@ I was a member of Penn Haven Housing Co-operative for two and a half years, from
 - Coverage
   - Nov 2015, ["Hurrah for the Red and Blue (and the Green)"][3], *The Daily Pennsylvanian*
   - Apr 2015, ["Penn Haven provides a home for those seeking alternative living"][2], *The Daily Pennsylvanian*
+
+### Intersectional Feminism
+
+#### V-Day
+
+The [V-Day College Campaign][8] is one of the largest and most successful social justice movements on the University of Pennsylvania's campus. V-Day UPenn has become the catalyst for mobilizing both women and men to heighten awareness of violence against women of all ages, as well as the force that empowers individuals and the public-at-large to bring that violence to an end.
+
+The campaign puts on an annual benefit production of Eve Ensler's play, *The Vagina Monologues*, which reaches over 4,000 students, alumni, faculty, staff, and residents. Over the past seven years, V-Day UPenn has raised over $290,000 for its beneficiary, Women Organized Against Rape (WOAR), the only full-service rape crisis center in Philadelphia.
+
+I was a member of the Associate Board from 2014 - 2015, working to raise campaign awareness and supporting efforts to make the movement more inclusive of transgender women.
+
+![][1]
+Graphic Designer (2014 - 2015)
+{: .caption}
+
+#### Student Anti-Violence Advocate (SAVA)
+
+Hosted by Penn Violence Prevention at the University of Pennsylvania, Student Anti-Violence Advocate (SAVA) training is an interactive 6-hour training that educates students about the prevalence and impact of sexual violence, relationship violence and stalking. It provides them with the skills to recognize and respond to interpersonal violence if they, or a friend, experiences it and prepares them to be an active bystander combating violence on campus.
+
+I underwent SAVA training in 2013 and subsequently led anti-violence trainings in student groups, such as the co-ed service fraternity Alpha Phi Omega.
 
 ### LGBTQ Advocacy
 
