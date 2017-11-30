@@ -5,6 +5,7 @@ layout: project
 # Graphic Design
 
 ### Textual Interpretation
+#### 2012
 
 > Science is still one of my chief joys. The popularization of science that Isaac Asimov did so well—the communication not just of the findings but of the methods of science—seems to me as natural as breathing. After all, when you’re in love, you want to tell the world.
 >
@@ -13,11 +14,11 @@ layout: project
 I transcribed Carl Sagan's ["Wonder and Skepticism"][10] into a textual interpretation, which I printed using laser-cut linoleum blocks on a linotype machine.
 
 ![][12]
-2012, Lasercut linoleum block
+Lasercut linoleum block
 {: .caption}
 
 ![][13]
-2012, Linotype print
+Linotype print
 {: .caption}
 
 As a fun side note, here's an additional excerpt from Sagan's piece:
@@ -27,6 +28,7 @@ As a fun side note, here's an additional excerpt from Sagan's piece:
 This was published in 1995. It's a little terrifying to think about this in context of current events, but also heartening to see how my research interests and skills have grown so organically over the past five years. I feel just as passionate about working to counteract this version of reality, and infinitely more prepared to go out into the world and do it.
 
 ### Personal Logo
+#### 2012
 
 During a 2012 Graphic Design class at the University of Pennsylvania, I was tasked with creating a personal logo. I first collected **external inspiration**:
 ![][1]
@@ -43,9 +45,10 @@ While it conveyed the clean, bold aesthetic and sense of movement I was aiming f
 ![][4]
 
 ### Font Design
+#### 2012
 
 ![][8]
-2012, ZONING, Adobe Photoshop and InDesign
+ZONING, Adobe Photoshop and InDesign
 {: .caption}
 
 Inspired by a Victorian townhouse on South Street, Philadelphia, PA, ZONING is an architectural font that remains true to its late seventeenth century root Queen Anne values of picturesque coherence and informality. The Aesthetic Movement of the 1890s, which revitalized Philadelphian townhouse design, is apparent in the font’s thinned architectural lines, relative unornamentation, and balanced asymmetries. Form follows function with the lettering’s stacking and gridding capacity: ZONING’s wide range of applicability runs the gamut from  modernized subway design to children’s educational television.
@@ -55,24 +58,48 @@ Inspired by a Victorian townhouse on South Street, Philadelphia, PA, ZONING is a
 ![][9]
 
 ### Sound Transcription
+#### 2012
 
 <iframe width="100%" height="100" src="https://www.youtube.com/embed/LxFk9-UhY_Y?rel=0" frameborder="0" allowfullscreen></iframe>
 I visually transcribed "The Light" by Blackmill into the paired visual pieces:
 
 ![][6]
-2012, Photography and Adobe Photoshop
+Photography and Adobe Photoshop
 {: .caption}
 
 ### Creative Process Book
+#### 2012
 
 I printed and hand-bound a book describing my creative process.
 
 <div data-configid="31926889/55820091" style="width:100%; height:300px;" class="issuuembed"></div>
 <script type="text/javascript" src="//e.issuu.com/embed.js" async="true"></script>
 
-2012, Adobe InDesign
+Adobe InDesign
 {: .caption}
 
+### Snapshots
+#### 2011
+
+![][16]
+Photoshoot Director, Photo Editing, Adobe Photoshop and InDesign
+{: .caption}
+
+![][14]
+Adobe InDesign
+{: .caption}
+
+![][15]
+Adobe InDesign
+{: .caption}
+
+![][17]
+Photography, Copywriting, Adobe InDesign
+{: .caption}
+
+![][18]
+Photography, Copywriting, Adobe InDesign
+{: .caption}
 
 [1]: /assets/images/logo-inspiration.jpg
 [2]: /assets/images/myself.jpg
@@ -87,3 +114,8 @@ I printed and hand-bound a book describing my creative process.
 [11]: http://worldcat.org/issn/0194-6730
 [12]: /assets/images/text-lino.jpg
 [13]: /assets/images/text-printed.jpg
+[14]: /assets/images/snapshots-yosemite.jpg
+[15]: /assets/images/snapshots-hp.jpg
+[16]: /assets/images/snapshots-winterstyle.jpg
+[17]: /assets/images/snapshots-sm.jpg
+[18]: /assets/images/snapshots-money.jpg
