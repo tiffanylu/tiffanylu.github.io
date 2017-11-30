@@ -56,7 +56,7 @@ d3.json("data/portfolio-meta.json", function(error, graph) {
   .enter().append("text")
             .text(function (d) { return d.id; })
             .style("text-anchor", "middle")
-            .style("fill", "#555")
+            .style("fill", "#999999")
             .style("font-size", function (d) { return 10 + 2 * d.scale });
 
   simulation
@@ -151,11 +151,11 @@ function color(i) {
   switch (i) {
     case 1:
       // projects
-      return "#dfdfdf";
+      return "#e5e5e5";
       break;
     case 2:
       // skills
-      return "#595959";
+      return "#000";
       break;
     default:
       return "#000000";

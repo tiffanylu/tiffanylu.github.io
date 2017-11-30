@@ -527,22 +527,20 @@ code {
   position: absolute;
   top: 0;
   left: 0; }
-
-.links line {
-  stroke: #d3d3d3; }
-
-.nodes circle {
-  transition: fill .8s ease; }
-  .nodes circle:hover {
-    transition: fill .2s ease;
-    fill: #6eafff; }
-    .nodes circle:hover.active-children {
+  .svg-content .links line {
+    stroke: #d3d3d3; }
+  .svg-content .nodes circle {
+    transition: fill .8s ease; }
+    .svg-content .nodes circle:hover {
+      transition: fill .2s ease;
       fill: #6eafff; }
-  .nodes circle.active-node {
-    transition: fill 1s ease;
-    fill: #ff9b20; }
-  .nodes circle.active-children {
-    fill: #ffe2bd; }
+      .svg-content .nodes circle:hover.active-children {
+        fill: #6eafff; }
+    .svg-content .nodes circle.active-node {
+      transition: fill 1s ease;
+      fill: #ff9b20; }
+    .svg-content .nodes circle.active-children {
+      fill: #ffe2bd; }
 
 .description {
   transition: opacity .4s ease-out;

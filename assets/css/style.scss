@@ -77,31 +77,37 @@ code {
   position: absolute;
   top: 0;
   left: 0;
-}
 
-.links line {
-  stroke: #d3d3d3;
-}
+  .links line {
+    stroke: #d3d3d3;
+  }
 
-.nodes circle {
-  transition: fill .8s ease;
+  .nodes circle {
+    transition: fill .8s ease;
 
-  &:hover {
-    transition: fill .2s ease;
-    fill: #6eafff;
+    &:hover {
+      transition: fill .2s ease;
+      fill: #6eafff;
+
+      &.active-children {
+        fill: #6eafff;
+      }
+    }
+
+    &.active-node {
+      transition: fill 1s ease;
+      fill: #ff9b20;
+    }
 
     &.active-children {
-      fill: #6eafff;
+      fill: #ffe2bd;
     }
   }
 
-  &.active-node {
-    transition: fill 1s ease;
-    fill: #ff9b20;
-  }
-
-  &.active-children {
-    fill: #ffe2bd;
+  .labels {
+    text {
+      // color: #b2b2b2;      
+    }
   }
 }
 
