@@ -6,7 +6,8 @@ layout: project
 
 ## Software Development
 
-### ![][5] Cesium (2015)
+### ![][5] Cesium
+#### 2015
 
 [Cesium][6] is an open-source JavaScript library for world-class 3D globes and maps. It is downloaded more than 10,000 times every month and powers apps that reach millions of users. I contributed to two Cesium releases under the mentorship of lead developer Patrick Cozzi, during an [Open-Source Software Development course][9] at the University of Pennsylvania.
 
@@ -29,6 +30,7 @@ Cesium serves terrain imagery via graphical map tiles served by various imagery 
 ## Product Development
 
 ### ![][15] GyroCup (2015)
+#### 2015
 
 My team's final product for MEAM 415: Introduction to Product Design was the GyroCup: a gyroscopic cup holder that uses the liquid weight of a beverage to keep it upright, regardless of the bike's orientation. Our product was awarded first place at the MEAM 415 Design Fair, which showcased final products from two Intro to Product Design classes.
 
