@@ -143,6 +143,7 @@ h4 {
   font-weight: 300;
   font-size: 17px;
   letter-spacing: 2px;
+  line-height: 120%;
 }
 
 ::-webkit-scrollbar {
@@ -163,6 +164,7 @@ blockquote {
   text-align: right;
   font-weight: 300;
   font-style: italic;
+  line-height: 120%;
 }
 
 .key {
@@ -174,6 +176,10 @@ blockquote {
   border-radius: 10px;
   box-shadow: 5px 5px 30px -5px #d5d5d5;
   font-size: 10px;
+
+  text body {
+    color: #999999;
+  }
 }
 
 a {
