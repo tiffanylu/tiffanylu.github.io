@@ -6,13 +6,13 @@ layout: project
 
 ### Cooperativism
 
-#### ![][9] Point A
+#### ![][9] Point A (2017 - Present)
 
 [Point A][5] is working to create a network of ambitious and engaged income-sharing egalitarian urban communes as a starting point on the road to a more humane, satisfying, and sustainable world for all. Point A is a project of the [Federation of Egalitarian Communities (FEC)][6].
 
 The Point A project in New York is affiliated with [Smiling Hogshead Ranch][7], an autonomous, all-volunteer urban farm. After two years of organizing that I joined onto in May 2017, Point A successfully founded an urban commune in Astoria, Queens, New York City.
 
-#### Penn Haven Housing Co-operative
+#### Penn Haven Housing Co-op (2012 - 2015)
 
 Established in 2011, Penn Haven Housing Co-operative (PHHC) is a vegan cooperative living community committed to social justice and sustainability. PHHC is committed to making decisions by consensus, living consciously, and working to create a safe, affordable, and welcoming space for student-aged individuals in the Philadelphia area.
 
@@ -38,7 +38,7 @@ I was a member of Penn Haven Housing Co-operative for two and a half years, from
 
 ### Intersectional Feminism
 
-#### V-Day
+#### V-Day (2014 - 2015)
 
 The [V-Day College Campaign][8] is one of the largest and most successful social justice movements on the University of Pennsylvania's campus. V-Day UPenn has become the catalyst for mobilizing both women and men to heighten awareness of violence against women of all ages, as well as the force that empowers individuals and the public-at-large to bring that violence to an end.
 
@@ -50,7 +50,7 @@ I was a member of the Associate Board from 2014 - 2015, working to raise campaig
 Graphic Designer (2014 - 2015)
 {: .caption}
 
-#### Student Anti-Violence Advocate (SAVA)
+#### Student Anti-Violence Advocate (2013)
 
 Hosted by Penn Violence Prevention at the University of Pennsylvania, Student Anti-Violence Advocate (SAVA) training is an interactive 6-hour training that educates students about the prevalence and impact of sexual violence, relationship violence and stalking. It provides them with the skills to recognize and respond to interpersonal violence if they, or a friend, experiences it and prepares them to be an active bystander combating violence on campus.
 
