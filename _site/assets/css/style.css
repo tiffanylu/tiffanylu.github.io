@@ -533,14 +533,14 @@ code {
     transition: fill .8s ease; }
     .svg-content .nodes circle:hover {
       transition: fill .2s ease;
-      fill: #6eafff; }
+      fill: #73b3ff; }
       .svg-content .nodes circle:hover.active-children {
-        fill: #6eafff; }
+        fill: #73b3ff; }
     .svg-content .nodes circle.active-node {
       transition: fill 1s ease;
-      fill: #ff9b20; }
+      fill: #ffbf73; }
     .svg-content .nodes circle.active-children {
-      fill: #ffe2bd; }
+      fill: #ffe2be; }
 
 .description {
   transition: opacity .4s ease-out;

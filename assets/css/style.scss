@@ -87,20 +87,20 @@ code {
 
     &:hover {
       transition: fill .2s ease;
-      fill: #6eafff;
+      fill: #73b3ff;
 
       &.active-children {
-        fill: #6eafff;
+        fill: #73b3ff;
       }
     }
 
     &.active-node {
       transition: fill 1s ease;
-      fill: #ff9b20;
+      fill: #ffbf73;
     }
 
     &.active-children {
-      fill: #ffe2bd;
+      fill: #ffe2be;
     }
   }
 }
