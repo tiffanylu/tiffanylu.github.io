@@ -23,7 +23,7 @@ As Editor for the QPenn Supplement to Penn's student paper, [*The Daily Pennsylv
 <div data-configid="31926889/55818281" style="width:100%; height:300px;" class="issuuembed"></div>
 <script type="text/javascript" src="//e.issuu.com/embed.js" async="true"></script>
 
-Designer, Adobe InDesign and Photoshop
+Submissions Editor, Designer, Adobe InDesign and Photoshop
 {: .caption}
 
 

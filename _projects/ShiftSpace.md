@@ -13,11 +13,17 @@ layout: project
 
 At the start of my internship, SHIFTSPACE had installed a temporary construction fence around Philadelphia's 30th St Station that consisted of a series of metal planter units:
 
+#### Before
+
 ![][3]
+30th St Station, Philadelphia, March 2013
+{: .caption}
 
 These metal units absorbed heat under the summer sun, creating an inhospitable plant environment. I worked with a team of two other interns to redesign the planter units, conducting materials research and iterating on product designs. Our final design used locally-sourced fabric that was heat-resistant, compatible with irrigation systems and easier to install.
 
 Our product was brought to market following the conclusion of my internship. In 2016, our redesigned vertical planters were installed inside 30th St Station in partnership with Amtrak and University City District. The Amtrak Gardens installation was a key element in welcoming the 2016 Democratic National Convention to Philadelphia.
+
+#### After
 
 ![][4]
 30th St Station, Philadelphia, July 2016
