@@ -4,33 +4,40 @@ layout: project
 ---
 # ![The WALK][17]
 ### Aug 2011 - Dec 2014
-#### Art Director, Internal Affairs Coordinator, Writer
+#### Art Director, Copywriter
 
 *The WALK* is the University of Pennsylvania's premier fashion magazine. Completely student-run, it was named one of the country's best college fashion magazines in 2013 by *Teen Vogue* and has won numerous awards for journalism and design from the Columbia Scholastic Press Association (CSPA).
 
 ## Portfolio
+
+### Layout Design
+
+#### Art Director
 
 <div data-configid="31926889/55818311" style="width:100%; height:300px;" class="issuuembed"></div>
 <script type="text/javascript" src="//e.issuu.com/embed.js" async="true"></script>
 Art Director, *Winter 2014* Issue, *The WALK*
 {: .caption}
 
-- Art Director
-  - [*Winter 2014*][4]
-  - [*Summer 2014*][5]
-- Senior Layout Editor
-  - [*Winter 2013*][14]
-- Writer
-  - ["Melting Guns Into Good"][6], *Winter 2013*
-  - ["Zaching Is Believing"][11], *Summer 2012*
-- Layout Designer
-  - ["High Tech, High Fashion"][16], *Winter 2014*
-  - ["Spin the Body Electric"][15], *Summer 2013*
-  - ["Melting Guns Into Good"][6], *Winter 2013*
-  - ["Weaving Style with Social Enterprise"][7], *Winter 2013*
-  - ["All That Jazz"][10], *Summer 2012*
-  - ["Zaching Is Believing"][11], *Summer 2012*
-  - [Table of Contents][9], *Winter 2012*
+- [*Winter 2014*][4]
+- [*Summer 2014*][5]
+
+#### Senior Layout Editor
+- [*Winter 2013*][14]
+
+#### Layout Designer
+- ["High Tech, High Fashion"][16], *Winter 2014*
+- ["Spin the Body Electric"][15], *Summer 2013*
+- ["Melting Guns Into Good"][6], *Winter 2013*
+- ["Weaving Style with Social Enterprise"][7], *Winter 2013*
+- ["All That Jazz"][10], *Summer 2012*
+- ["Zaching Is Believing"][11], *Summer 2012*
+- [Table of Contents][9], *Winter 2012*
+
+### Copywriting
+
+- ["Melting Guns Into Good"][6], *Winter 2013*
+- ["Zaching Is Believing"][11], *Summer 2012*
 
 ## Awards
 
