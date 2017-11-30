@@ -19,6 +19,12 @@ layout: project
 - Rearchitected server-side architecture and on-disk ata persistence code
 - Used Objective-C, Cocoapods, Xcode, Buddybuild, Swift, Carthage
 
+### React Native SDK
+#### Open source, [GitHub][3]
+- Led cross-platform development
+- Managed open-source code contributions and SDK releases
+- Used Javascript, Node.js, npm, Android Studio, Java
+
 ### iOS Test App
 #### Open source, [Github][7]
 
@@ -31,12 +37,6 @@ I redesigned the public iOS test app for a better user experience, using Objecti
 #### After
 
 ![][14]
-
-### React Native SDK
-#### Open source, [GitHub][3]
-- Led cross-platform development
-- Managed open-source code contributions and SDK releases
-- Used Javascript, Node.js, npm, Android Studio, Java
 
 ### [Braze Documentation][5] and [Braze Academy][6]
 
