@@ -35,6 +35,7 @@ Nov 2016, [The Seattle Pilot of the AsylumConnect Catalog: A Case Study][4]
 Sept 2016, [AsylumConnect 2015-2016 Annual Report][3]
 {: .caption}
 
+- Dec 2017, ["Online LGBT asylum resource launches in SF"][15], *Bay Area Reporter*
 - Sept 2017, [AsylumConnect and One Degree Join Forces to Take First Online Resource Database for LGBTQ Asylum Seekers Nationwide][9]
 - Dec 2016 - Aug 2017, AsylumConnect expands to Philadelphia via partnership with [Hack4Impact][8] at the University of Pennsylvania
 - Jan 2016, [Seattle pilot][11] of the AsylumConnect catalog ([GitHub][12])
@@ -55,3 +56,4 @@ Sept 2016, [AsylumConnect 2015-2016 Annual Report][3]
 [12]: https://github.com/AsylumConnect/asylumconnect.github.io
 [13]: /assets/images/AC-logo.png
 [14]: /assets/images/asylumconnect.png
+[15]: http://www.ebar.com/news/article.php?sec=news&article=73153
